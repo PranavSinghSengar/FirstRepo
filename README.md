@@ -1,7 +1,13 @@
 
-# Smart Calculator - C++
+# Smart Calculator 🧮
 
-A menu-driven calculator built using C++.
+A feature-rich, menu-driven calculator developed using C++.
+
+## About the Project
+
+Smart Calculator is my first C++ project.
+It performs mathematical operations through
+an interactive console-based menu.
 
 ## Features
 
@@ -10,39 +16,54 @@ A menu-driven calculator built using C++.
 - Multiplication
 - Division
 - Modulus
-- Power
+- Power Calculation
 - Square Root
 - Calculation History
 - Clear History
 - Input Validation
 - Division by Zero Protection
 
-## Requirements
-
-- C++ Compiler (G++)
-- C++17 or later
-- VS Code (optional)
-
-## How to Run
-
-Compile:
-
-    g++ main.cpp -o calculator
-
-Run:
-
-    ./calculator
-
 ## Technologies Used
 
 - C++
-- STL
+- C++ Standard Library
+- STL Vector
 - Functions
-- Vectors
 - Loops
-- Switch Statements
 - Conditional Statements
+- Switch Statements
+
+## Requirements
+
+- C++17 compatible compiler
+- GCC / G++
+
+## How to Run
+
+Compile the program:
+
+    g++ -std=c++17 main.cpp -o calculator
+
+Run on Linux / WSL:
+
+    ./calculator
+
+Run on Windows:
+
+    calculator.exe
+
+## Project Structure
+
+    Smart-Calculator/
+    ├── main.cpp
+    └── README.md
 
 ## Author
 
-Pranav Singh Sengar
+**Pranav Singh Sengar**
+
+First GitHub Project | C++ Programming
+
+## License
+
+No license has been added yet.
